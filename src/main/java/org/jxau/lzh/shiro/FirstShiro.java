@@ -27,6 +27,7 @@ public class FirstShiro {
 			boolean authen = subject.isAuthenticated();
 			subject.logout();
 			boolean authen2 = subject.isAuthenticated();
+			System.out.println("hahaha");
 		}catch(AuthenticationException ex){
 			ex.printStackTrace();
 		}
